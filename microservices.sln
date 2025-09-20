@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "microservices-chain", "microservices-chain", "{058E9E02-CD41-599C-545E-FABA0B079A09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceB", "microservices-chain\service_b_csharp\ServiceB.csproj", "{B72881F1-2BA7-0FE9-9639-7BE5A5905610}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B72881F1-2BA7-0FE9-9639-7BE5A5905610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B72881F1-2BA7-0FE9-9639-7BE5A5905610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B72881F1-2BA7-0FE9-9639-7BE5A5905610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B72881F1-2BA7-0FE9-9639-7BE5A5905610}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B72881F1-2BA7-0FE9-9639-7BE5A5905610} = {058E9E02-CD41-599C-545E-FABA0B079A09}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD675E77-2B04-4EB4-B68A-EAED8CFA3A27}
+	EndGlobalSection
+EndGlobal
